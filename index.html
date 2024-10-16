@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AnimeAnjay</title>
+  <title>Lossy | Home</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -15,8 +15,8 @@
   <meta property="og:image:alt" content="">
 
   <link rel="icon" href="/img/favicon_io/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/favicon_io/favicon-16x16.png" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon_io/apple-touch-icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -29,19 +29,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 <!--navbar-->
   <nav>
     <div class="navbar">
       <div class="navbar__container">
-        <a href="#"><h1><em>Anjay</em><span style="color: #d4ac0d">Web</span></h1></a>
+        <a href="#"><h1 style="background: linear-gradient(to right, #d0d3d4 15%, #d4ac0d 85%); color: transparent; background-clip: text"><em>Lossy</em></h1></a>
       </div>
       <div class="navbar__toggle">
-        <a href="#">Home</a>
-        <a href="#">About Me</a>
+        <a href="#hero">Home</a>
+        <a href="#about">About Me</a>
         <ul>
           <li>
-            <a href="#">Project</a>
+            <a href="Pages/Project.html">Project</a>
             <ul>
               <li><a href="#">Anime</a></li>
               <li><a href="#">Drakor</a></li>
@@ -51,12 +52,48 @@
         </ul>
       </div>
     </div>
-    <hr>
   </nav>
+
+<!--home page-->
+  <section>
+    <main class="hero" id="hero">
+          <div class="hero-content">
+            <h1 style="color: #d4ac0d">Project Nonton Anime</h1>
+            <a href="Pages/Project.html" class="start"><strong>Start</strong></a>
+          </div>
+    </main>
+  </section>
+
+  <section id="about"  style="background: #e5e7e9">
+    <div class="about">
+      <div class="about-content">
+        <h1 style="padding-bottom: 10px">Apa itu Project <span style="background: linear-gradient(to right, #2e4053 15%, #d4ac0d 85%); color: transparent; background-clip: text">Lossy?</span></h1>
+        <p style="margin: 0 400px 30px 0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur doloremque dolorum, ea et exercitationem explicabo facilis id illo, laboriosam, laborum maiores minima odit omnis quaerat quis quo quos repellat sequi voluptate. Eligendi libero nulla quas tempora? Excepturi, numquam, quo!</p>
+      </div>
+      <div class="isinya">
+        <h1 style="padding-bottom: 10px">Apa itu Project <span style="background: linear-gradient(to right, #2e4053 15%, #d4ac0d 85%); color: transparent; background-clip: text">Lossy?</span></h1>
+        <p style="padding-bottom: 30px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laborum.</p>
+      </div>
+      <div class="isinya">
+        <h1 style="padding-bottom: 10px">Apa itu Project <span style="background: linear-gradient(to right, #2e4053 15%, #d4ac0d 85%); color: transparent; background-clip: text">Lossy?</span></h1>
+        <p style="padding-bottom: 30px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laborum.</p>
+      </div>
+    </div>
+  </section>
+
+
+<!--<footer>-->
+<!--  <div class="footer__container">-->
+<!--    <div class="footer__content">-->
+<!--      <div class="footer__text">-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</footer>-->
 
 <!--  javascript-->
   <script src="js/app.js"></script>
 
 </body>
-
 </html>
