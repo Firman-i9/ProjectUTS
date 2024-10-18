@@ -44,7 +44,7 @@ body {
   margin: 10rem 0 3rem;
   color: black;
   border-right: 1px solid var(--primary);
-  float: left;
+  float: right;
   display: grid;
   justify-content: center;
   align-items: center;
